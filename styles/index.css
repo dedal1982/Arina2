@@ -148,7 +148,7 @@ button {
 }
 .action__wrapper {
   padding-top: 99px;
-  padding-bottom: 99px;
+  padding-bottom: 130px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -173,4 +173,59 @@ button {
   color: #000;
   max-width: 674px;
   width: 100%;
+}
+.action__item-image {
+  display: flex;
+  gap: 142px;
+  margin-top: 30px;
+  margin-bottom: 130px;
+}
+.action__image {
+  width: 292px;
+  height: 292px;
+}
+.action__item-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 75px;
+}
+/*---way---*/
+.way {
+  width: 100%;
+  display: flex;
+  background: #ffe5ed;
+}
+.way__container {
+  max-width: 1360px;
+  width: 100%;
+  padding-left: 114px;
+  padding-right: 154px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.way__wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 113px;
+  margin-bottom: 130px;
+}
+.way__top {
+  display: flex;
+  justify-content: center;
+  border: 5px solid #ffffff;
+  border-radius: 10px;
+}
+.way__text {
+  max-width: 743px;
+  width: 100%;
+  margin-top: 41px;
+  margin-bottom: 15px;
+  font-family: "MinionPro", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43.2px;
+  color: #000;
+  text-align: center;
 }
